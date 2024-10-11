@@ -1,0 +1,425 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.footer-section p, .footer-section ul, .footer-section li {
+  margin: 5px 0;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ffcc00;
+}
+
+.footer-bottom {
+  background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.8em;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #bbb;
+}
+
+header {
+  height: 700px;
+  width: 100%;
+  background-image: url(../img/Seleccion.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+}
+header h1 {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 100px;
+}
+header .eslogan {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 3000px;
+}
+
+.presentacion1 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../img/cancha\ de\ san\ lorenzo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.presentacion2 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../img/cancha\ de\ river\ main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.presentacion3 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../img/cancha\ de\ boca\ main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.casaca1 {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10%;
+  border-style: ridge;
+}
+
+.casaca2 {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10%;
+  border-style: ridge;
+}
+
+.casaca3 {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10%;
+  border-style: ridge;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 3010px;
+}
+main h3 {
+  color: blue;
+  padding-top: 10%;
+}
+
+.catalogo1 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../img/fondo\ de\ arg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.seleccion_arg_1 {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10%;
+  border-style: ridge;
+}
+
+.catalogo2 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../img/fondo\ españa.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.seleccion_esp_1 {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10%;
+  border-style: ridge;
+}
+
+.catalogo3 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../img/fondo\ de\ brasil.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.seleccion_bra_1 {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2%;
+  border-style: ridge;
+}
+
+#grilla {
+  display: grid;
+  height: 2100px;
+  background-color: azure;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 700px 700px 700px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas: "a1 a2 a3" "a4 a5 a6" "a7 a8 a9";
+}
+
+#camiseta_1 {
+  background-color: azure;
+  grid-area: a1;
+  width: 90%;
+  height: 90%;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top: solid;
+}
+
+#camiseta_2 {
+  background-color: azure;
+  grid-area: a2;
+  width: 90%;
+  height: 90%;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top: solid;
+}
+
+.camiseta_3 {
+  background-color: azure;
+  grid-area: a3;
+  width: 90%;
+  height: 90%;
+  margin-left: 10px;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top: solid;
+}
+
+#camiseta_4 {
+  background-color: azure;
+  grid-area: a4;
+  width: 90%;
+  height: 90%;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top: solid;
+}
+
+#camiseta_5 {
+  background-color: azure;
+  grid-area: a5;
+  width: 90%;
+  height: 90%;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top: solid;
+}
+
+#camiseta_6 {
+  background-color: azure;
+  grid-area: a6;
+  width: 90%;
+  height: 90%;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top: solid;
+}
+
+#camiseta_7 {
+  background-color: azure;
+  grid-area: a7;
+  width: 90%;
+  height: 90%;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top: solid;
+}
+
+#camiseta_8 {
+  background-color: azure;
+  grid-area: a8;
+  width: 90%;
+  height: 90%;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top: solid;
+}
+
+#camiseta_9 {
+  background-color: azure;
+  grid-area: a9;
+  width: 90%;
+  height: 90%;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-top: solid;
+}
+
+.ropafa {
+  width: 75%;
+  height: 75%;
+  padding-top: 3%;
+  padding-right: 10%;
+  margin-left: 19%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.casaca {
+  font-size: 30px;
+  padding-left: 20%;
+  margin-left: 23px;
+}
+
+.casaca_1 {
+  font-size: 30px;
+  padding-left: 25%;
+  margin-left: 23px;
+}
+
+.casaca_2 {
+  font-size: 30px;
+  padding-left: 25%;
+  margin-left: 23px;
+}
+
+.casaca_3 {
+  font-size: 30px;
+  padding-left: 12%;
+  margin-left: 23px;
+}
+
+.casaca_4 {
+  font-size: 30px;
+  padding-left: 40%;
+  margin-left: 23px;
+}
+
+.casaca_5 {
+  font-size: 30px;
+  padding-left: 40%;
+  margin-left: 23px;
+}
+
+.casaca_6 {
+  font-size: 30px;
+  padding-left: 25%;
+  margin-left: 23px;
+}
+
+.casaca_7 {
+  font-size: 30px;
+  padding-left: 16%;
+  margin-left: 23px;
+}
+
+.casaca_8 {
+  font-size: 30px;
+  padding-left: 25%;
+  margin-left: 23px;
+}
+
+.precio {
+  padding-left: 42%;
+  margin-left: 23px;
+}
+
+button {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.btn {
+  margin-left: 240px;
+  text-align: center;
+}
+
+.mainfutbolarg {
+  height: 2300px;
+}
+
+.boton1 {
+  margin-right: 45%;
+}
+
+/*# sourceMappingURL=style.css.map */
